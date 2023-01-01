@@ -1,0 +1,63 @@
+@media only screen and (max-width:1200px){
+    .section1 .navbar ul li {
+        margin-right: 0;
+        padding: 0px;
+      }
+    .like-to-be{
+        flex-wrap: wrap;
+    }
+    .section1 .navbar ul{
+        display: block;
+        list-style: none;
+    }
+    .title{
+        /* display: flex; */
+        padding: 3% 5.7%;
+        flex-wrap: wrap;
+    }
+    #Menu{
+        display: flex;
+    }
+    .hide{
+        display:block;
+    }
+    .image img{
+        height: auto;
+        width: 100%;
+    }
+    .image{
+        padding: 4%;
+    }
+    .section1 .navbar ul{
+        flex-wrap: wrap;
+    }
+    .like-to-be .text{
+        width: 100%;
+        color: white;
+    }
+}
+@media only screen and (max-width:790px) {
+    .place-info{
+        width: 95%;
+    }
+    .place-info img{
+        height: auto;
+        width: 100%;
+    }
+    .place-1 img{
+        height: auto;
+        width: 100%;
+    }
+    .section2 .create-memory{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        color: white;
+    }
+}
+@media only screen and (max-width:550px){
+    .discription{
+        width: 100%;
+        margin: 0 5px;
+    }
+}
